@@ -1,0 +1,144 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  background-color: #111;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Wrapper */
+#wrapper {
+  margin-top: 50px;
+  background: #2c2c2c;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Heading */
+#wrapper h1 {
+  margin-bottom: 10px;
+}
+
+/* Text */
+#wrapper p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Form */
+.form {
+  margin-top: 20px;
+}
+
+/* Label */
+#guess {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Input */
+#guessField {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Button */
+#subt {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#subt:hover {
+  background-color: #0097a7;
+  color: white;
+}
+
+/* Disabled */
+#subt:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* Results */
+.resultParas {
+  margin-top: 20px;
+}
+
+/* Highlight guesses */
+.guesses {
+  color: #00e676;
+  font-weight: bold;
+}
+
+/* Remaining */
+.lastResult {
+  color: #ffeb3b;
+  font-weight: bold;
+}
+
+/* Message */
+.lowOrHi {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* New game button (created via JS) */
+.button {
+  margin-top: 20px;
+  background: #ff5252;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff1744;
+}
+
+.button h2 {
+  font-size: 16px;
+}
